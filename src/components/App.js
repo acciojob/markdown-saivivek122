@@ -8,7 +8,7 @@ function App(){
   const [loading,setLoading] = useState(true)
 
   const handleChange = (e) =>{
-    setMarkdown(e.target.value)
+    setMarkdown(e.target.value) 
   }
   
   const changeLoadingVar = () => {
