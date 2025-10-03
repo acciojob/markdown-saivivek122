@@ -10,3 +10,47 @@ button{
     justify-content: center;
     align-items: center;
 }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.editor-container {
+  display: flex;
+  justify-content: space-between;
+  height: 80vh;
+  padding: 10px;
+}
+
+.markdown-input {
+  width: 48%;
+  height: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  resize: none;
+  background: #fff;
+}
+
+.markdown-preview {
+  width: 48%;
+  height: 100%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  background: #fff;
+  overflow-y: auto;
+  text-align: left;
+}
